@@ -1,0 +1,15 @@
+turtle.Screen()  -> used to create a window
+window.title() -> set's the name of the program
+window.setup(width = X, height = Y ) -> define the x and y coordinates for scrren size
+window.bgcolor("") -> used to set the background color of the window
+
+# body functions
+body.penup() -> makes sure the path of the object isn't drawn
+body.goto(a,b) -> to  set up the body coordinates
+body.color() -> to set the color of the body
+ while True:
+
+    window.update -> keeps updating the screen continuously
+ window.tracer(a) -> turn animation on or off
+ xcor() and ycor() -> y and x coordinates of the body
+ sety() and setx() ->
