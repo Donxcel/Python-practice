@@ -1,0 +1,4 @@
+# windows functions
+
+windows.listen() # listen to the screen input
+windows.onkey(key = "" , fun = "function_name") # assigns a particular function
