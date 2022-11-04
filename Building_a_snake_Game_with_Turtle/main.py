@@ -4,12 +4,13 @@ import time
 import segment
 
 # setting up the screen
-delay = 0.04  # estimated number of seconds
+delay = 0.2  # estimated number of seconds
 test = ['up', 'down']
 segments = []
 test_random = random.choice(test)
-score = 0                               # initialising the scores
+score = 0  # initialising the scores
 high_score = 0
+
 
 def move():
     if snake.direction == "up":
@@ -79,20 +80,20 @@ win.onkeypress(go_up, "w")
 win.onkeypress(go_down, "s")
 win.onkeypress(go_left, "a")
 win.onkeypress(go_right, "d")
-                        #adding the scores in the game
+# adding the scores in the game
 pen = turtle.Turtle()
 pen.speed(0)
-#pen.shape("square")
+# pen.shape("square")
 pen.color("white")
 pen.up()
 pen.hideturtle()
-pen.goto(0,260)
-pen.write("score:{} High Score:{}".format(score,high_score),align="center",font=("Courier",24,"normal"))
+pen.goto(0, 260)
+pen.write("score:{} High Score:{}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
-new_segment = turtle.Turtle()
+
 def new_segments():
-
-    new_segment.speed(0)
+    new_segment = turtle.Turtle()
+    new_segment.speed(4)
     new_segment.shape('square')
     new_segment.color('blue')
     new_segment.penup()
@@ -101,23 +102,23 @@ def new_segments():
         x = snake.xcor()
         y = snake.ycor()
         segments[0].goto(x, y)
-        print(x,y)
-
-    for i in range(len(segments) - 1, 0, -1):
-            x = segments[i - 1].xcor()
-            y = segments[i - 1].ycor()
-            segments[i].goto(x, y)
-
+        print(x, y)
+    print(len(segments))
+    for i in segments:
+        x = snake.xcor()
+        y = snake.ycor()
+        i.goto(x, y)
+        move()
 
 def collision():
     if snake.xcor() > 350 or snake.xcor() < -350 or snake.ycor() > 300 or snake.ycor() < -300:
         time.sleep(0.85)
-        snake.goto(0,0)
+        snake.goto(0, 0)
         snake.direction = "down"
         x = random.randint(-290, 290)
         y = random.randint(-290, 290)
-        food.goto(x,y)
-        print(x,y)
+        food.goto(x, y)
+        print(x, y)
         global score
         global high_score
         if score > high_score:
@@ -140,8 +141,6 @@ while True:
         new_segments()
         score += 1
         pen.clear()
-        pen.write("score:{} High Score:{}".format(score,high_score),align="center",font=("Courier",24,"normal"))
-
-
+        pen.write("score:{} High Score:{}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
     collision()

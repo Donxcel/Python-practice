@@ -2,3 +2,8 @@
 
 windows.listen() # listen to the screen input
 windows.onkey(key = "" , fun = "function_name") # assigns a particular function
+windows.textinput(title = "",prompt="") # used as an input function
+
+# turtle functions
+
+turtle.clear() # clear the path taken by the turtle
