@@ -10,7 +10,5 @@ class Pause(Turtle):
         self.hideturtle()
 
     def toggle_pause(self):
-
-        return PAUSING
         self.write(f"GAME PAUSED ", align="center", font=("Courier", 41, "normal", "bold", "italic"))
-        time.sleep(0.1)
+        self.clear()

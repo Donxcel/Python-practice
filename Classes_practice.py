@@ -23,6 +23,17 @@ class PLay:
                 print(f'{self.a} is a prime number')
         else:
                 print(f'{self.a} is not a prime number')
+
+class Test:
+    def __init__(self) -> None:
+            again = 1
+    def play():
+        print('play')
+class result:
+    def __init__(self) -> None:
+       test = 1
+    def __str__(self) -> str:
+         pass
 get = eval(input("enter an integer:  "))
 test = PLay(get)
 print (f'the answer is  {test.fact()}')
