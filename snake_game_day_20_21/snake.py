@@ -45,6 +45,7 @@ class Snake:
     def move(self):
 
         print(len(self.segments))
+        print(len(self.segments) - 1)
         for test in range(len(self.segments) - 1, 0, -1):
             x = self.segments[test - 1].xcor()
             y = self.segments[test - 1].ycor()
