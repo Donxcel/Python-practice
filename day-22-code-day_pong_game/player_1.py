@@ -1,21 +1,22 @@
 from turtle import Turtle
-I = 280
-class Player_1:
-    def __init__(self):
-        self.segments = []
-    def add(self):
-        for i in range(10):
-            self.segments.append(self.create())
 
-    def create(self):
-        global I
-        self.player = Turtle()
-        self.player.color('white')
-        self.player.shape('square')
-        self.player.penup()
-        self.player.speed('fastest')
-        self.player.goto(-470,I)
-        I+=10
+
+class Player(Turtle):
+    def __init__(self, a, b):
+        super().__init__()
+        self.color('white')
+        self.shape('square')
+        self.penup()
+        self.speed('fastest')
+        self.shapesize(5, 0.5)
+        self.goto(a, b)
+
     def moveUP(self):
-        for test in self.segments:
-            test.
+        new = self.ycor() + 15
+        self.goto(self.xcor(), new)
+
+    def moveDOWN(self):
+        new = self.ycor() - 15
+        self.goto(self.xcor(), new)
+    def initialise(self):
+        pass
