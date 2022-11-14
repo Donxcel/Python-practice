@@ -86,3 +86,5 @@ while is_game_true:
             is_game_true = False
 
     new_score.add_score(score, final)
+with open('max_score.txt', mode='w') as store:
+    store.write(str(final))

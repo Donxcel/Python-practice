@@ -1,16 +1,11 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+from telethon import TelegramClient
+from time import sleep
+api_id = 28348074
+api_hash = "ec034321b8e78b79e94efdab078de0af"
+msg = input("type in the message you wanna send:  ")
+user_id = input("Enter user id")
+number_of_messages = eval(input("Enter the number of messages: "))
+with TelegramClient('donal',api_id,api_hash) as client:
+    for i in range(number_of_messages):
+        client.loop.run_until_complete(client.send_message(user_id,msg))
+        sleep(10)
