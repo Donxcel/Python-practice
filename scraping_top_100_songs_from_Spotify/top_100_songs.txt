@@ -1,0 +1,81 @@
+1)name: Miley Cyrus -> Flowers 
+2)name: SZA -> Love Language 
+3)name: Morgan Wallen -> Tennessee Fan 
+4)name: Sam Smith & Kim Petras -> Unholy 
+5)name: Metro Boomin, The Weeknd & 21 Savage -> Creepin' 
+6)name: Beyonce -> Cuff It 
+7)name: Taylor Swift -> Lavender Haze 
+8)name: The Weeknd -> Die For You 
+9)name: David Guetta & Bebe Rexha -> I'm Good (Blue) 
+10)name: Harry Styles -> As It Was 
+11)name: Drake & 21 Savage -> Spin Bout U 
+12)name: Lil Uzi Vert -> Just Wanna Rock 
+13)name: PinkPantheress & Ice Spice -> Boy's A Liar, Pt. 2 
+14)name: Meghan Trainor -> Made You Look 
+15)name: Chris Brown -> Under The Influence 
+16)name: JVKE -> Golden Hour 
+17)name: Bailey Zimmerman -> Rock And A Hard Place 
+18)name: Zach Bryan -> Something In The Orange 
+19)name: Kane Brown With Katelyn Brown -> Thank God 
+20)name: Steve Lacy -> Bad Habit 
+21)name: Luke Combs -> Growin' Up And Gettin' Old 
+22)name: RAYE Featuring 070 Shake -> Escapism 
+23)name: Metro Boomin, Future & Chris Brown -> Superhero (Heroes & Villains) 
+24)name: Rema & Selena Gomez -> Calm Down 
+25)name: Coi Leray -> Players 
+26)name: Miguel -> Sure Thing 
+27)name: Lainey Wilson -> Heart Like A Truck 
+28)name: Bizarrap & Shakira -> Bzrp Music Sessions, Vol. 53 
+29)name: Stephen Sanchez -> Until I Found You 
+30)name: Future Featuring Drake & Tems -> Wait For U 
+31)name: Post Malone Featuring Doja Cat -> I Like You (A Happier Song) 
+32)name: Fuerza Regida X Grupo Frontera -> Bebe Dame 
+33)name: GloRilla & Cardi B -> Tomorrow 2 
+34)name: Lizzo -> About Damn Time 
+35)name: HARDY Featuring Lainey Wilson -> Wait In The Truck 
+36)name: Cole Swindell -> She Had Me At Heads Carolina 
+37)name: Jordan Davis -> Next Thing You Know 
+38)name: Sia -> Unstoppable 
+39)name: Nate Smith -> Whiskey On You 
+40)name: Zach Bryan Featuring Maggie Rogers -> Dawns 
+41)name: The Kid LAROI -> Love Again 
+42)name: Rihanna -> Lift Me Up 
+43)name: Carin Leon X Grupo Frontera -> Que Vuelvas 
+44)name: Megan Moroney -> Tennessee Orange 
+45)name: Karol G x Romeo Santos -> X Si Volvemos 
+46)name: Lady Gaga -> Bloody Mary 
+47)name: Parker McCollum -> Handle On You 
+48)name: Carly Pearce -> What He Didn't Do 
+49)name: Lil Baby -> California Breeze 
+50)name: Corey Kent -> Wild As Her 
+51)name: Brett Young -> You Didn't 
+52)name: Sabrina Carpenter -> Nonsense 
+53)name: d4vd -> Here With Me 
+54)name: Tory Lanez -> The Color Violet 
+55)name: Gabito Ballesteros, Peso Pluma & Natanael Cano -> AMG 
+56)name: Tiesto Featuring Tate McRae -> 10:35 
+57)name: Manuel Turizo -> La Bachata 
+58)name: Lewis Capaldi -> Forget Me 
+59)name: Hotel Ugly -> Shut Up My Moms Calling 
+60)name: NewJeans -> Ditto 
+61)name: Grupo Frontera -> No Se Va 
+62)name: Future -> Love You Better 
+63)name: Arcangel & Bad Bunny -> La Jumpa 
+64)name: Peso Pluma X Natanael Cano -> PRC 
+65)name: Jason Aldean -> That's What Tequila Does 
+66)name: Falling In Reverse -> Watch The World Burn 
+67)name: Cody Johnson -> Human 
+68)name: Ice Spice -> In Ha Mood 
+69)name: Finesse2Tymes -> Back End 
+70)name: NLE Choppa & 2Rare -> Do It Again 
+71)name: Ozuna Featuring Feid -> Hey Mor 
+72)name: Metro Boomin Featuring Don Toliver & Future -> Too Many Nights 
+73)name: SZA Featuring Phoebe Bridgers -> Ghost In The Machine 
+74)name: Junior H X Oscar Maydon -> Fin de Semana 
+75)name: Rosa Linn -> Snap 
+76)name: Sam Smith -> I'm Not Here To Make Friends 
+77)name: Nengo Flow & Bad Bunny -> Gato de Noche 
+78)name: Yandel & Feid -> Yandel 150 
+79)name: Mac DeMarco -> Heart To Heart 
+80)name: P!nk -> Never Gonna Not Dance Again 
+81)name: SZA Featuring Travis Scott -> Open Arms 
