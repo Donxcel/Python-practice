@@ -1,0 +1,7 @@
+1. You have to install tkinter module
+2.Make sure u can easily access the image
+
+
+
+Enjoy the app 😁
+
